@@ -1,0 +1,48 @@
+
+
+JAVA 
+
+	+
+	
+JDBC
+
+
+
+
+Connecting the MySql
+
+
+("jdbc:mysql://localhost:3306/sb012","root","root12345");
+
+Goal : Connect the JAVA through JDBC in to MySql
+
+1. jdbc -> Connect the JAVA through JDBC.
+2. Which DB you want to connect : mysql
+3. Where is MySql running : localhost
+4. In your PC which port it is using : 3306
+5. In Mysql which data base are you using : sb012
+6. To loging in to DB , Please tell me the user name and Password  : root , root12345
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

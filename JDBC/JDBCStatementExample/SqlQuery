@@ -1,0 +1,23 @@
+
+show databases;
+
+create database sb012;
+
+USE sb012;
+
+
+CREATE TABLE EMPLOYEE(
+	ID int NOT NULL PRIMARY KEY,
+	AGE int NOT NULL,
+	FIRST_NAME varchar (255),
+	LAST_NAME varchar (255)
+);
+
+SELECT * FROM EMPLOYEE;
+
+INSERT INTO EMPLOYEE VALUES (100,21,'Souvik','Ghosh');
+INSERT INTO EMPLOYEE VALUES (101,25,'Nayan','Sahare');
+INSERT INTO EMPLOYEE VALUES (102,30,'Devendra','Dhar');
+INSERT INTO EMPLOYEE VALUES (103,31,'Ayaz','Ahmad');
+INSERT INTO EMPLOYEE VALUES (104,37,'Athar','Zafar');
+

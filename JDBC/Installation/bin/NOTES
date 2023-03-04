@@ -1,0 +1,107 @@
+
+Sir two files were there one is 2.31 MB and another is 435 MB. which one I need to install first?
+
+
+Welcome to Simplilearn phase 2
+
+Our Git : https://github.com/contactsom/SB012/tree/master
+
+
+Phase 2 :
+
+		1. JDBC      (****)
+		2. Hibernate (*****)
+		3. Servlet 
+		4. JSP
+		
+		
+Installation for JDBC:
+*********************
+
+1. Install the MySql VERSION 8.0.28
+
+	URL : 
+		  windows :	https://downloads.mysql.com/archives/installer/ 
+		  Mac     : https://downloads.mysql.com/archives/community/
+	
+	Download : Windows (x86, 32-bit), MSI Installer
+	
+	While Installing provide the below Information :
+	-----------------------------------------------
+	User     : root (default)
+	Password : root12345 (Don't provide your own password , keep as same)
+	
+2. 	MySQL Workbench UI Version :
+	
+	URL : https://downloads.mysql.com/archives/workbench/
+	
+	Select the 
+		Version : 8.0.28
+		OS : Windows/mac
+
+		
+3. Configure the below steps to run the MySql in Windows automatically 
+	
+	Windows – Start and Stop Server
+	Let us understand how it can be done on Windows −
+
+	Open ‘Run’ Window by using Win key + R
+
+	Type ‘services.msc’
+
+	Now search for MySQL service based on the version that is installed.
+
+	Click on ‘stop’, ‘start’ or ‘restart’ the service option.
+
+	
+4*. Download JAR "mysql-connector-java-8.0.28.jar" 
+	
+
+5. JAVA Version :
+		JAVA 1.8 - 1.8.311.11 
+		Java SE Development Kit 8u202
+		https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html
+		Un-install other version of JAVA
+	
+6. Eclipse :
+		Version: 2021-12 (4.22.0)
+		URL : https://archive.eclipse.org/eclipse/downloads/drops4/R-4.22-202111241800/
+	
+* - No action required from learner , Jar will be shipped through Git.	
+
+
+Congratulation you are done with installations :)
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
