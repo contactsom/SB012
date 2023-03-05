@@ -1,0 +1,11 @@
+
+Static Method :
+
+To call the static method object not required . We can call static method by class name only.
+
+
+
+
+
+Can't we delete or insert by providing the row and column no. 
+Like 0,0 or 0,1..because in prepared statement the code will be lengthy

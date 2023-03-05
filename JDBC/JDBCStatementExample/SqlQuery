@@ -21,3 +21,20 @@ INSERT INTO EMPLOYEE VALUES (102,30,'Devendra','Dhar');
 INSERT INTO EMPLOYEE VALUES (103,31,'Ayaz','Ahmad');
 INSERT INTO EMPLOYEE VALUES (104,37,'Athar','Zafar');
 
+
+UPDATE EMPLOYEE SET AGE = 19 WHERE ID = 104;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+
+public interface Statement 
+public interface PreparedStatement extends Statement
+
+
+public interface CallableStatement extends PreparedStatement
+
+public interface CallableStatement 
+	Has the Property of PreparedStatement
+	Has the Property of Statement ?

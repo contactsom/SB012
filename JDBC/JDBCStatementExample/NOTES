@@ -24,6 +24,83 @@ Goal : Connect the JAVA through JDBC in to MySql
 6. To loging in to DB , Please tell me the user name and Password  : root , root12345
 
 
+Class Loading :
+**************
+3 Types Of 
+
+clas.forname()
+try catch is used 
+what is jar
+
+
+
+Interview :
+	Core java		- 60 %
+		200 Question :
+		100 + Program (Array + String )
+		
+	Advance JAVA 	- 25 %
+		Servlet
+		JSP
+		JDBC
+		Hivbernate
+		Spring
+		
+	UI Technology : - 10 %
+	
+		Angular , Html CSS...
+		
+	Devops: 5 %
+	
+
+
+
+*******
+Insert 
+Update 
+Delete
+Read
+
+CRUD- create, read, update, and delete
+
+
+
+
+
+
+
+HOME WORK :
+----------
+All the code written using statement has to converted by JDBCUtill.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
