@@ -1,0 +1,38 @@
+show databases;
+
+USE sb012;
+
+CREATE TABLE BOOKS(
+	BOOK_ID int NOT NULL PRIMARY KEY,
+	BOOK_NAME varchar(255),
+	BOOK_AUTHOR varchar(255),
+	BOOK_PUBLICATION varchar(255),
+	BOOK_PRICE int,
+	BOOK_ISBN BIGINT
+);
+
+
+SELECT * FROM BOOKS;
+
+INSERT INTO BOOKS VALUES (?,?,?,?,?,?);
+UPDATE BOOKS SET BOOK_PRICE = ? WHERE BOOK_ID = ?
+
+DELETE FROM BOOKS WHERE BOOK_ID = ?
+
+
+CREATE TABLE USERS(
+	USERS_NAME varchar(255),
+	USERS_PASSWORD varchar(255)
+);
+
+
+SELECT * FROM USERS;
+
+INSERT INTO USERS VALUES ('admin','admin@12345');
+INSERT INTO USERS VALUES ('root','root@12345');
+
+
+
+
+//Book book = new Book(901, "Head First Java: A Brain-Friendly Guide, Third Edition", "Kathy Sierra", "Routledge", 7978, 113816724L);
+		Book book = new Book(902, "Java Made Simple", "P K Mcbride", "O'REILLY", 1625, 9355420900L);
