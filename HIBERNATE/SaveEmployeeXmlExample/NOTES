@@ -1,0 +1,5 @@
+<property name="hbm2ddl.auto">update</property>
+<property name="hbm2ddl.auto">create</property>
+
+1. While first execution hbm2ddl.auto=create
+2. From second execution onwards hbm2ddl.auto=update

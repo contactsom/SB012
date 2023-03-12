@@ -1,0 +1,58 @@
+Hibernate Configuration :
+	1. XML [OLD]
+	2. Annotation [New]
+
+
+Steps to Create the Hiberante project:
+1. Create the JAVA project
+2. Crea the /lib folder 
+3. Place the required JAR's in to the Folder.
+4. All all the JAR's from /lib to build path
+5. Place the "*/src/hibernate.cfg.xml" in to the /src/* folder 
+	https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
+6. Create the POJO Class i.e Student.java
+7. Place the *.hbm.xml file in to the package where POJO class are there .
+	1. What is the name of hbm file ? <POJO-FILE-NAME>.hbm.xml
+	2. *.hbm.xml and POJO class should be in same package 
+ 
+
+
+STUDENT
+
+Sir please explain where did we get the ,hbm file?
+but sir it should be created after the class file is generated?
+
+
+Hibernate: 
+
+insert into STUDENT_INFO (STUDENT_NAME, STUDENT_EMAIL, STUDENT_PHONE, STUDENT_ID) values (?, ?, ?, ?)
+prepared Statement 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
