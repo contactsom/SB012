@@ -1,0 +1,59 @@
+
+Mapping :
+1. One to One Mapping.
+2. One to Many Mapping.
+3. Many to One Mapping.
+4. Many to Many Mapping.
+
+Mapping Direction :
+	1. Uni- Direction Mapping
+	2. Bi- Direction Mapping
+	
+	
+Mapping :
+1. One to One Uni Directional Mapping.
+2. One to Many Uni Directional Mapping.
+3. Many to One Uni Directional Mapping.
+4. Many to Many Uni Directional Mapping.
+	
+Mapping :
+1. One to One Bi Directional Mapping.
+2. One to Many Bi Directional Mapping.
+3. Many to One Bi Directional Mapping.
+4. Many to Many Bi Directional Mapping.
+
+**********************************************
+
+
+
+Student 
+
+Address 
+
+One Student have One Address - Agree or not 
+one citizen have one passport - Agree or not 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

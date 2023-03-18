@@ -1,0 +1,23 @@
+select
+        EMPLOYEE_ID,
+        EMPLOYEE_ADDRESS,
+        EMPLOYEE_DESIGNATION ,
+        EMPLOYEE_EMAIL,
+        EMPLOYEE_NAME,
+        EMPLOYEE_SALARY,
+    from
+        EMPLOYEE_INFO
+    where
+        ,EMPLOYEE_ID=?
+        
+        
+ EMPLOYEE_ID : 1 
+ EMPLOYEE_NAME : Kalpana Paikrao 
+ EMPLOYEE_EMAIL : kalpana.paikrao@simplilearn.com 
+ EMPLOYEE_ADDRESS : 2nd Cross,Main Road 
+ EMPLOYEE_SALARY : 9000 
+ EMPLOYEE_DESIGNATION : VP
+
+
+
+SELECT * FROM EMPLOYEE_INFO where EMPLOYEE_ID=1;

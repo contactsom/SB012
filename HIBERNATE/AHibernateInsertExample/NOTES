@@ -1,0 +1,49 @@
+
+ <property name="format_sql">true</property>
+  insert 
+    into
+        CUSTOMER_INFO
+        (CUSTOMER_BALANCE, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) 
+    values
+        (?, ?, ?, ?, ?)
+        
+        
+        
+<property name="format_sql">false</property>
+insert into CUSTOMER_INFO (CUSTOMER_BALANCE, CUSTOMER_CITY, CUSTOMER_EMAIL, CUSTOMER_NAME, CUSTOMER_PHONE) values (?, ?, ?, ?, ?)
+
+
+Customer.java - POJO CLASS
+
+@Entity
+Customer.java - Entity CLASS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
