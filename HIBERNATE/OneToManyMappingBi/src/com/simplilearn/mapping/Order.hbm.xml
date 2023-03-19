@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.mapping">
+	
+	<class name="Order" table="ORDER_DATA">
+
+		<id name="orderid" column="ORDER_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+			
+		<property name="orderqty" column="ORDER_QTY" type="int" />
+		<property name="ordercost"   column="ORDER_COST" type="double"/>
+		<property name="orderdate"  column="ORDER_DATE" type="date"/>
+		<property name="orderstatus"  column="ORDER_STATUS" type="string"/>
+		
+		<many-to-one name="customer" class="Customer" column="customerid"/>
+		
+		
+	</class>
+</hibernate-mapping>
+
+

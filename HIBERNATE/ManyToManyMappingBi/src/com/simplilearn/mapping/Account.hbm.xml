@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.mapping">
+	
+	<class name="Account" table="ACCOUNT_DATA_BI">
+
+		<id name="accountno" column="ACCOUNT_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+			
+		<property name="accounttype"   column="ACCOUNT_TYPE" />
+		<property name="balance"       column="ACCOUNT_BALANCE" type="double" />
+		
+		<set name="customer" table="CUSTOMER_ACCOUNT">
+			<key column="accountno"/>
+			<many-to-many class="Customer" column="cid" />
+		</set>
+		
+		
+	</class>
+</hibernate-mapping>
+
+

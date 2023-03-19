@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.mapping">
+	
+	<class name="Student" table="STUDENT_DATA">
+
+		<id name="sid" column="STUDENT_ID" type="int">	
+		<generator class="increment" />	
+		</id>	
+			
+		<property name="sname"   column="STUDENT_NAME" />
+		<property name="semail"  column="STUDENT_EMAIL" />
+		<property name="phone"  column="STUDENT_PHONE" type="long"/>
+		
+		<many-to-one name="address" class="Address" column="aid"/>
+		
+	</class>
+</hibernate-mapping>
+
+

@@ -1,0 +1,43 @@
+
+
+
+Customer 				Order
+1. One Customer have multiple Order   -> Agree -R1
+2. All orders belongs to One Customer -> Agree -R2
+
+R1 + R2 = Bi Mapping 
+
+
+
+
+Hibernate: insert into ORDER_DATA (ORDER_QTY, ORDER_COST, ORDER_DATE, ORDER_STATUS, customerid, ORDER_ID) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into ORDER_DATA (ORDER_QTY, ORDER_COST, ORDER_DATE, ORDER_STATUS, customerid, ORDER_ID) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into ORDER_DATA (ORDER_QTY, ORDER_COST, ORDER_DATE, ORDER_STATUS, customerid, ORDER_ID) values (?, ?, ?, ?, ?, ?)
+
+Hibernate: insert into CUSTOMER_DETAILS (CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, CUSTOMER_DOB, CUSTOMER_ID) values (?, ?, ?, ?, ?)
+
+Hibernate: update ORDER_DATA set ORDER_QTY=?, ORDER_COST=?, ORDER_DATE=?, ORDER_STATUS=?, customerid=? where ORDER_ID=?
+Hibernate: update ORDER_DATA set ORDER_QTY=?, ORDER_COST=?, ORDER_DATE=?, ORDER_STATUS=?, customerid=? where ORDER_ID=?
+Hibernate: update ORDER_DATA set ORDER_QTY=?, ORDER_COST=?, ORDER_DATE=?, ORDER_STATUS=?, customerid=? where ORDER_ID=?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

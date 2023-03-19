@@ -1,0 +1,6 @@
+	ACCOUNT[Bank Account]			CUSTOMER
+	
+	1. Many Account have Many Customer - True
+	2. Many Customer have Many Account - True
+	
+	1 + 2= Bi Direction

@@ -1,0 +1,7 @@
+*** One To One mapping Bi Directional
+
+ 	Student 				Address
+ 1. Student has the Address 				-> True - R1
+ 2. This Address belongs to this Student	-> True - R2
+ 
+ Bi Directional -> R1+R2
