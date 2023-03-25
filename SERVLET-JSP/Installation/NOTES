@@ -1,0 +1,140 @@
+
+1. Eclipse Version :
+	https://www.eclipse.org/downloads/packages/release/2021-12/r   
+	The Eclipse Installer 2021‑12 R now includes a JRE for macOS, Windows and Linux.
+	   
+	   
+	Eclipse IDE for Enterprise Java and Web Developers (includes Incubating components)
+	
+	Version: 2021-12 (4.22.0)
+	Build id: 20211202-1639
+   
+2. JAVA Version : 1.8
+	URL : https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html
+	
+-------> Change the Prosepctive to "JAVA EE" if it is not <-------
+
+
+3. Create the Dynamic web project : Right Click or File -> New -> Dynamic Web Project
+	3.1 If it is not Visible , 
+		then change the eclipse prospective by clicking + or Matrix Sign on top right corner of Eclipse
+4. Provide the project Name as "ServletExample" (Anything meaningfull)
+
+5. Move with "Next,Next" do the check box for "Generate web.xml deployment descriptor"
+
+6. And click on finish .
+
+7. Project should be created with name "ServletExample" under Project Explorer.
+
+8. Project Structure ---
+	*8.1 Deployment Descriptor: ServletExample
+	8.2 JAX-WS Web Service
+ 	8.3 src/main/java 
+	8.4 JRE System Library []
+	8.5 build
+	8.6 src
+		8.6.1 main
+			8.6.1.1 java
+			8.6.1.2 webapp
+				8.6.1.2.1 META-INF (MANIFEST.MF)
+				8.6.1.2.2 WEB-INF 
+ 					8.6.1.2.2.1 lib
+					8.6.1.2.2.2 web.xml
+
+
+9. Configure the Apache Tomcat Server
+10. Navigate to Windows-> show view -> servers
+11. Click on "Click this link to create the new server"
+12. Expend the "Apache"
+13. Select "Tomcat v10.0 Server" Click on Next
+*14. Click on "Add" which is available in front of "Server runtime environment"
+15. New window will open name as "Tomcat Server"
+16. Click on button "Download and Install" (Internet Connected)
+17. Accept the licence 
+18. Click on Finish
+19. By default in will open one window :
+	For MAC user -> inside User
+	For Windows -> C drive (manually move to C Drive) 
+20. Create the new Folder name as "Tomcat"
+21. Click on "Open" button & wait for download to complete.
+22. Back to "Tomcat Server" windows
+23. [Optional] there is one error saying that "The name already in use"
+24. Click on finish.
+
+
+25. There is one project get created name as "Servers" inside that "tomcat V10" is visible .
+26. In server Window  "tomcat V10" is abatable .
+27. Now Apache Tomcat server is configured successfully :)
+
+28. Right Click (Project ServletExample) src/main/java -> New -> servlet -> Inside the class name-> Hello -> next -> next -> finish
+	Follow the Steps : From 29 to 34
+	28.1 Right Click on Project "ServletExample"-> Run As -> Run On Server
+	28.2 The new windows will open "Run On Server"
+	28.3 Click the radio button if not checked already (Choose an Existing Server)
+	28.4 "Choose an existing server"
+	28.5 expand localhost
+	28.6 select the installed tomcat server i.e v10
+	28.7 click next
+	28.8 click on finish
+	28.9 able to see some log in console
+	28.10 automatically some browser will open with url : http://localhost:8080/ServletExample/
+		Error : HTTP Status 404 – Not Found
+
+	28.11. Hit this URL 
+		"http://localhost:8080/ServletExample/Hello"
+	OR
+		"http://127.0.0.1:8080/ServletExample/Hello"
+		
+29. Right Click on Project -> build Path -> Configure build path
+30. Default it will be in "Libraries" Tab or else we need to move .
+31. Click on class path -> add external jars -> Target the tomcat directory in your PC
+32. Tomcat->apache-tomcat-10.0.13->lib->servelet-api.jar and click on "Open" -> "Apply and Close"
+33. "Referenced Liberaries" added automatically .
+34. Redirect to the "/ServletExample/src/main/java/Hello.java" and modify the Hello.java
+--> Move back to the Steps from 28.1 to 28.10
+
+35. How to Run:
+36. Right Click -> Run as -> Run On Server-> Choose Existing Server -> ans select apache tomcat  version 1 0 -> Finish
+37. Hit this URL 
+		"http://localhost:8080/ServletExample/Hello"
+	OR
+		"http://127.0.0.1:8080/ServletExample/Hello"
+
+URL Meaning :
+http://localhost:8080/ServletExample/Hello
+
+<protocol>://<ServerName>:<port>/<ApplicationName></>
+Ex:http://localhost:8080/ServletExample/Hello
+
+<protocol> 	 : http or https
+<ServerName> : sbi.m.123/localhost or 127.0.0.1 
+<port>       : 8080 (default port of tomcat)
+<ApplicationName> : is your project name
+
+http://127.0.0.1:8080/ServletExample/Hello
+
+https://localhost:8080/ServletExample/Hello
+https://www.simplilearn.com/- Running on security
+
+
+https://www.abcde/8080/simplilearn.com/
+
+
+
+http://www.simplilearn.com/
+https://www.simplilearn.com/skillup-free-online-courses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
