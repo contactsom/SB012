@@ -106,6 +106,9 @@ http://localhost:8080/ServletExample/Hello
 <protocol>://<ServerName>:<port>/<ApplicationName></>
 Ex:http://localhost:8080/ServletExample/Hello
 
+This website is not secured 
+http://apipothi.com/
+
 <protocol> 	 : http or https
 <ServerName> : sbi.m.123/localhost or 127.0.0.1 
 <port>       : 8080 (default port of tomcat)
