@@ -1,0 +1,20 @@
+
+
+OLD:
+javax.servlet.ServletException;
+
+NEW :
+jakarta.servlet.ServletException;
+
+----- SMS 1.0-------
+com.simplilearn.abc
+
+----- SMS 2.0-------
+com.sms.abc
+
+http://localhost:8080/MyServletExample/
+
+http://localhost:8080/MyServletExample/simplilearn
+
+************ MyServlet.init() ************ 
+************ MyServlet.service() ************ 

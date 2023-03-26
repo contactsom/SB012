@@ -1,0 +1,24 @@
+Default URL get open on Brouser 
+
+	Request  : http://localhost:8080/MyHttpServlet/
+	Response : This is my Http Servlet First Example
+
+Request  : http://localhost:8080/MyHttpServlet/simplilearn
+Response : Reach to the web.xml
+		Searching for the unique ID i.e <servlet-name> against <url-pattern> :  /simplilearn
+		<servlet-name>= studentservlet
+		Searching for servlet against the unique ID
+		<servlet-class>= com.simplilearn.servlet.StudentServlet
+		
+		Send below details to brouser 
+			
+		out.print("<html><body>");
+		out.print("<h1> Welcome to Simplilearn </h1>");
+		out.print("<h2> This is Servlet JSP Session </h2>");
+		out.print("<h3> Hello Servlet from StudentServlet servlet  </h3>");
+		out.print("</body></html>");
+		
+		--------------------------------------
+				
+		
+		

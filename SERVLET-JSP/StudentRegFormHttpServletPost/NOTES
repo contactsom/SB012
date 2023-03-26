@@ -1,0 +1,4 @@
+
+JSP 								Servlet
+method = "post">					protected void doPost() - Data is not visible on URL
+method = "get">						protected void doGet() - Data will be visible on URL
